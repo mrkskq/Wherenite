@@ -1,0 +1,80 @@
+﻿@model Wherenite.Models.Venue
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Креирај нова локација</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.VenueTypeId, "Тип на простор", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("VenueTypeId", null, htmlAttributes: new { @class = "form-control  btn btn-outline-light dropdown-toggle" })
+            @Html.ValidationMessageFor(model => model.VenueTypeId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PhoneNumber1, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PhoneNumber1, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.PhoneNumber1, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PhoneNumber2, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PhoneNumber2, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.PhoneNumber2, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.PhoneNumber3, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PhoneNumber3, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.PhoneNumber3, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group" style="margin-top: 10px">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Креирај" class="btn btn-light" />
+        </div>
+    </div>
+</div>
+}
+
+<p style="display: flex; justify-content: center; margin-bottom: 50px; margin-top: 50px">
+    @Html.ActionLink(" < Назад", "Index", "Venues", null, new { @class = "btn btn-dark btn-lg" })
+</p>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

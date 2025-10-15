@@ -1,0 +1,118 @@
+﻿@model List<Wherenite.Models.Event>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1 class="belo" style="text-align: center; margin:30px">Don't ask where tonight - just Wherenite.</h1>
+
+<h3 class="belo" style="text-align: center">Филтрирај настани според типот на просторот или локацијата кадешто се одржуваат.</h3>
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Get))
+{
+    <div class="belo" style="display: flex; justify-content: center; margin-top: 70px; margin-bottom: 50px; font-size: larger">
+
+
+        <div class="drop-filter">
+            <label>Тип на простор:</label>
+            @Html.DropDownList("venueTypeId", (SelectList)ViewBag.VenueTypes, "--- Одбери тип на простор ---", new { @class = "form-control btn btn-secondary dropdown-toggle", onchange = "this.form.submit()" })
+        </div>
+
+        <img src="~/Images/venue.png" width="80" />
+
+
+        <div class="drop-filter">
+            <label>Локација:</label>
+            @Html.DropDownList("venueId", (SelectList)ViewBag.Venues, "--- Одбери локација ---", new { @class = "form-control btn btn-secondary dropdown-toggle", onchange = "this.form.submit()" })
+        </div>
+
+        <br />
+
+    </div>
+    @*<input type="submit" value="Филтрирај" class="btn btn-primary" />*@
+}
+
+<div style="display: flex; justify-content: center; margin: 30px">
+    @Html.ActionLink("Сите настани > ", "Index", "Events", null, new { @class = "btn btn-dark btn-lg" })
+</div>
+
+<hr class="belo"/>
+
+@if (Model != null && Model.Any())
+{
+    <h3 class="belo">Пронајдени настани:</h3>
+    <ul style="display: flex; align-items: center; flex-wrap: wrap; justify-content: center">
+        @foreach (var item in Model.OrderByDescending(e => e.Date))
+        {
+            <li class="event-card">
+                <div>
+                    <img src="@item.EventImage" width="200" height="200" alt="Слика" style="object-fit: cover" />
+                    <p class="event-card-data" style="margin-top: 20px"><strong>@item.Title</strong></p>
+                    <p class="event-card-data">@item.Date.ToString("dd MMMM yyyy", new System.Globalization.CultureInfo("mk-MK"))</p>
+
+                    @if (item.Date < DateTime.Now)
+                    {
+                        <p class="event-card-data"><strong style="color: darkred;">Завршено</strong></p>
+                    }
+
+                    <p class="event-card-data">@Html.ActionLink("Повеќе", "Details", "Events", new { id = item.Id }, new { @class = "btn btn-outline-secondary" })</p>
+
+
+
+                    @if (item.Price != 0)
+                    {
+                        if (item.Date < DateTime.Now && (User.Identity.IsAuthenticated && User.IsInRole("Admin")))
+                        {
+                            <p class="event-card-data">
+                                @Html.ActionLink("Додај во кошничка", "AddItemToCart", "CartItems",
+                                    new { eventId = item.Id, quantity = 1 },
+                                    new { @class = "btn btn-warning" })
+                            </p>
+                        }
+                        else if (item.Date < DateTime.Now)
+                        {
+                            <p class="event-card-data">
+                                @Html.ActionLink("Додај во кошничка", "AddItemToCart", "CartItems",
+                                    new { eventId = item.Id, quantity = 1 },
+                                    new { @class = "btn btn-warning disabled" })
+                            </p>
+                        }
+                        else
+                        {
+                            <p class="event-card-data">
+                                @Html.ActionLink("Додај во кошничка", "AddItemToCart", "CartItems",
+                                    new { eventId = item.Id, quantity = 1 },
+                                    new { @class = "btn btn-warning" })
+                            </p>
+                        }
+                    }
+                    else
+                    {
+                <p class="event-card-data" >
+                    
+                    @if (!string.IsNullOrEmpty(item.Venue.PhoneNumber1))
+                    {
+                        <div style="text-align: center;">📞 @item.Venue.PhoneNumber1</div>
+                    }
+                    @if (!string.IsNullOrEmpty(item.Venue.PhoneNumber2))
+                    {
+                        <div style="text-align: center;">📞 @item.Venue.PhoneNumber2</div>
+                    }
+                    @if (!string.IsNullOrEmpty(item.Venue.PhoneNumber3))
+                    {
+                        <div style="text-align: center;">📞 @item.Venue.PhoneNumber3</div>
+                    }
+                </p>
+                    }
+                </div>
+            </li>
+        }
+    </ul>
+}
+else if (Model != null)
+{
+    <p class="belo">Нема закажани настани.</p>
+}
+
+
+

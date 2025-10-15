@@ -1,0 +1,68 @@
+﻿@model Wherenite.Models.CartItem
+
+@{
+    ViewBag.Title = "AddItemToCart";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(m => m.EventId)
+
+<div class="form-horizontal" style="border: 1px solid gray; border-radius: 20px; text-align:center; padding: 20px; width: 350px">
+
+    <h2>@ViewBag.Event.Title</h2>
+
+    <div>
+        <img src="@ViewBag.Event.EventImage" width="300" alt="Слика" style="margin-bottom: 30px; object-fit: cover" />
+    </div>
+
+    <h4>Локација: @ViewBag.Event.Venue.Name</h4>
+    <div>
+        <img src="@ViewBag.Event.Venue.Address" width="300" alt="Слика" />
+    </div>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group" style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 20px">
+        <label style="font-size: larger; margin-right: 10px">Категорија</label>
+        <div class="col-md-10" style="width: 160px; margin-left: 20px">
+            @Html.DropDownListFor(
+                m => m.TicketCategoryId,
+                (IEnumerable<SelectListItem>)ViewBag.Categories,
+                "---",
+                new { @class = "form-control" }
+            )
+            @*@Html.ValidationMessageFor(m => m.TicketCategoryId, "", new { @class = "text-danger" })*@
+        </div>
+    </div>
+
+
+    <div class="form-group" style="display: flex; justify-content: center">
+        <label style="font-size: larger">Број на карти</label>
+        <div class="col-md-10" style="width: 60px; margin-left: 20px">
+            @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.UserId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UserId, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.UserId, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+    <div class="form-group" style="margin: 30px; display: flex; justify-content:center">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Додади во кошничка" class="btn btn-dark btn-lg" />
+        </div>
+    </div>
+</div>
+}
+
+<p style="display: flex; justify-content: center; margin-bottom: 50px; margin-top: 50px">
+    @Html.ActionLink(" < Назад", "Index", "Events", new { id = Model.EventId } , new { @class = "btn btn-dark btn-lg" })
+</p>

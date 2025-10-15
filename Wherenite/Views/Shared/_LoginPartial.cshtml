@@ -1,0 +1,47 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("Logoff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+    @Html.AntiForgeryToken()<ul class="navbar-nav navbar-right">
+    @if (User.IsInRole("Admin"))
+    {
+        <li style="border: 1px solid white; border-radius: 10px">
+            @Html.Label("Admin", htmlAttributes: new { title = "Admin", @class = "nav-link" })
+        </li>
+        <li>
+            <img src="~/Images/admin.png" width="50" height="50" title="Admin" style="border-radius: 10px; margin-right: 10px; margin-left: 10px" />
+        </li>
+    }
+    else if (User.IsInRole("User"))
+    {
+       <li style="border: 1px solid white; border-radius: 10px">
+            @Html.Label("User", htmlAttributes: new { title = "User", @class = "nav-link" })
+       </li>
+        <li>
+            <img src="~/Images/user.png" width="50" height="50" title="User" style="border-radius: 10px; margin-right: 10px; margin-left: 10px" />
+        </li>
+    }
+    else
+    {
+    }
+    @*<li>
+            @Html.ActionLink("Здраво " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class = "nav-link" })
+        </li>*@
+    <li><a class="nav-link" href="javascript:document.getElementById('logoutForm').submit()">Одјави се</a></li>
+</ul>
+    }
+}
+else
+{
+<ul class="navbar-nav navbar-right">
+    <li style="border: 1px solid white; border-radius: 10px">
+        @Html.Label("Viewer", htmlAttributes: new { title = "Viewer", @class = "nav-link" })
+    </li>
+    <li>
+        <img src="~/Images/viewer.png" width="50" height="50" title="Viewer" style="border-radius: 10px; margin-right: 10px; margin-left: 10px" />
+    </li>
+    <li>@Html.ActionLink("Регистрирај се", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", @class = "nav-link" })</li>
+    <li>@Html.ActionLink("Најави се", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "nav-link" })</li>
+</ul>
+}

@@ -1,0 +1,173 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.event-card {
+    display: inline-block;
+    border: solid;
+    border-color: lightgray;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 25px;
+    max-width: fit-content;
+    background: linear-gradient(45deg, black, transparent);
+    box-shadow: 10px 10px 5px black;
+}
+
+.event-card-data{
+    text-align: center;
+    font-size: larger;
+}
+
+.drop-filter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 25%;
+    font-size: larger;
+}
+
+#eventsTable_filter > label {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 25%;
+    font-size: larger;
+}
+
+#eventsTable_length {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 25%;
+    font-size: larger;
+}
+
+#eventsTable_wrapper > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+
+#eventsTable_filter, #eventsTable_wrapper > div:nth-child(1) > div:nth-child(1), #eventsTable_length > label{
+    display: flex;
+    justify-content: center;
+}
+
+#eventsTable_length > label > select{
+    width: 50px;
+    margin: 5px;
+    height: 40px;
+}
+
+#eventsTable_filter > label > input{
+    border: 3px dashed darkgray;
+}
+
+.button-filter {
+    display: flex;
+    justify-content: center;
+}
+
+.js-filter{
+    margin: 5px;
+    font-size: larger;
+    width: 100px;
+}
+
+.head-cell{
+    text-align: center;
+    font-size: x-large;
+}
+
+.cell {
+    text-align: center;
+    vertical-align: middle;
+    font-size: x-large;
+}
+
+.labela{
+    font-size: larger !important;
+    font-weight: bold !important;
+}
+
+.opis {
+    width: 300px !important;
+    height: 200px !important;
+    border: 1px solid darkgray !important;
+    border-radius: 10px !important;
+}
+
+#loginForm > form{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body > nav > div > div{
+    font-size: larger;
+}
+
+body {
+    background: #000530;
+    background: linear-gradient(270deg, rgba(0, 5, 48, 1) 0%, rgba(145, 45, 80, 1) 50%, rgba(0, 5, 48, 1) 100%);
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgb(0 5 48) !important;
+}
+
+.belo{
+    color: white;
+}
+
+#loginForm > form > p > a {
+    color: #00e2ff !important;
+}
+
+.transparentBelo{
+    background: unset !important;
+    color: white !important;
+}
+
+.hidden-song{
+    display: none;
+}
+
+#venueTypeId, #venueId, body > div > div.button-filter > button.js-filter.btn.btn-dark.data-category\=, #EventIdDropdown {
+    background: #000530 !important;
+    border: unset !important;
+}
+
+body > div > div > a, body > div > p:nth-child(6) > a, #eventsWrapper > tr > td:nth-child(7) > p:nth-child(1) > a, .rozevo {
+    background: #4c0e24 !important;
+    border: unset !important;
+}
+
+body > div > div.button-filter > button:nth-child(2), body > div > div.button-filter > button:nth-child(3), body > div > div.button-filter > button:nth-child(4), body > div > div.button-filter > button:nth-child(5), body > div > div.button-filter > button:nth-child(6) {
+    background: #332056 !important;
+    border: unset !important;
+}
+
+#eventsWrapper > tr > td:nth-child(7) > p.event-card-data > a{
+    width: min-content;
+}
+

@@ -1,0 +1,181 @@
+﻿@model Wherenite.Models.Event
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div style="display: flex; justify-content: center; margin-top: 50px">
+
+    <div style="display: flex; justify-content: center; width: 330px; font-size: larger; margin-top: 65px; height: fit-content">
+        <div style="color: white; border-top-left-radius: 30px; margin-bottom: 20px; padding: 20px; width: 1000px; text-align: right">
+            @Model.About
+        </div>
+    </div>
+
+    <div class="form-horizontal" style="border: 1px solid gray; border-radius: 20px; text-align:center; padding: 20px; width: 400px; box-shadow: -10px 10px black">
+
+        <h2>@Model.Title</h2>
+
+        <div>
+            <img src="@Model.EventImage" width="300" alt="Слика" style="margin-bottom: 30px; object-fit: cover" />
+        </div>
+
+        <hr>
+
+        <div>
+            <img src="@Model.Venue.Address" width="300" alt="Слика" style="margin-top: 25px; margin-bottom: 25px" />
+        </div>
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    </div>
+
+    <div style="width: max-content">
+        <div style="background-color: #2a1039; color: white; height: max-content; border-bottom-right-radius: 30px; padding: 10px; margin-top: 65px; box-shadow: 0 5px black">
+            <h4>Тип на артист: @Model.Description</h4>
+        </div>
+
+        @if (Model.Price != 0)
+        {
+            <div style="background-color: #2a1039; color: white; height: max-content; border-bottom-right-radius: 30px; padding: 10px; margin-top: 20px; box-shadow: 0 5px black ">
+                @*<h4>Цена: @Model.Price ден.</h4>*@
+                <h4>Категории на билети</h4>
+                @if (Model.TicketCategories != null && Model.TicketCategories.Any())
+                {
+                    <ul>
+                        @foreach (var cat in Model.TicketCategories)
+                        {
+                            <li>@cat.Name - @cat.Price ден.</li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <p>Нема додадено категории за овој настан.</p>
+                }
+
+                @if (User.IsInRole("Admin"))
+                {
+                    @Html.ActionLink("Додади категорија и цена", "Create", "TicketCategories", new { eventId = Model.Id }, new { @class = "btn btn-outline-light rozevo" })
+                }
+
+            </div>
+        }
+        else
+        {
+            <div style="background-color: #2a1039; color: white; height: max-content; border-bottom-right-radius: 30px; padding: 10px; margin-top: 20px; box-shadow: 0 5px black ">
+                <h4>Телефонски броеви за резервација:</h4>
+                <ul style="margin:0; padding-left:20px;">
+                    @if (!string.IsNullOrEmpty(Model.Venue.PhoneNumber1))
+                    {
+                        <li>📞 @Model.Venue.PhoneNumber1</li>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.Venue.PhoneNumber2))
+                    {
+                        <li>📞 @Model.Venue.PhoneNumber2</li>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.Venue.PhoneNumber3))
+                    {
+                        <li>📞 @Model.Venue.PhoneNumber3</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <div style="background-color: #2a1039; color: white; height: max-content; border-bottom-right-radius: 30px; padding: 10px; margin-top: 20px; box-shadow: 0 5px black ">
+            <h4>Датум: @Model.Date.ToString("dddd", new System.Globalization.CultureInfo("mk-MK")), @Model.Date.ToString("dd MMMM yyyy", new System.Globalization.CultureInfo("mk-MK"))</h4>
+        </div>
+
+        <div style="background-color: #712449; color: white; height: max-content; border-bottom-right-radius: 30px; padding: 10px; margin-top: 130px; box-shadow: 0 5px black ">
+            <h4>Тип на простор: @Model.Venue.VenueType.Name</h4>
+        </div>
+
+        <div style="background-color: #712449; color: white; height: max-content; border-bottom-right-radius: 30px; padding: 10px; margin-top: 20px; box-shadow: 0 5px black ">
+            <h4>Локација: @Model.Venue.Name </h4>
+        </div>
+    </div>
+
+</div>
+
+<div style="display: flex; justify-content: center; margin: 85px; flex-wrap: wrap">
+    @if (Model.Songs != null && Model.Songs.Any())
+    {
+      
+            for(int i=0; i<Model.Songs.Count; i++) 
+            {
+                var song = Model.Songs[i];
+                <div class="@(i>=3 ? "hidden-song" : "")">
+                    <iframe width="350" height="315" src="@song.SongURL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen; style="border-bottom-right-radius: 30px; border-top-left-radius: 30px; margin-right: 10px; margin-left: 10px"></iframe>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <p style="text-align: center">
+                            <button class="js-delete btn btn-danger" data-song-id="@song.Id">Избриши</button>
+                        </p>
+                    }
+                </div>
+            }
+        
+        
+            <div style="width: 100%; text-align: center">
+                 <button id="showButton" class="btn btn-light" style="width: fit-content">Прикажи повеќе</button>
+
+            </div>
+        
+    }
+    else
+    {
+        <p>Нема додадено песни.</p>
+    }
+</div>
+
+
+
+<div style="display: flex; justify-content: center; margin-top: 20px">
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        <p style="margin: 10px">
+            @Html.ActionLink("Промени", "Edit", new { id = Model.Id }, new { @class = "btn btn-outline-secondary btn-lg" })
+        </p>
+    }
+
+    <p style="margin: 10px">
+        @Html.ActionLink(" < Назад ", "Index", null, new { @class = "btn btn-dark btn-lg rozevo" })
+    </p>
+</div>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $('.js-delete').on('click', function () {
+                var button = $(this);
+                bootbox.confirm("Дали сакате да ја избришете оваа песна?",
+                    function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: "/Events/DeleteSong/" + button.attr("data-song-id"),
+                                method: "GET",
+                                success: function () {
+                                    button.closest("div").remove();
+                                },
+                                error: function (err) { console.log(err); }
+                            });
+                        }
+                    });
+            });
+
+            $('#showButton').on('click', function () {
+                var hiddenSongs = $('.hidden-song');
+                var button = $(this);
+
+                if (button.text() == "Прикажи повеќе") {
+                    hiddenSongs.show();
+                    button.text("Прикажи помалку")
+                }
+                else {
+                    hiddenSongs.hide();
+                    button.text("Прикажи повеќе")
+                }
+            });
+
+        });
+    </script>
+}

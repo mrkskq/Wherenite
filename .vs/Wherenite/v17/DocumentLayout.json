@@ -1,0 +1,519 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|c:\\users\\pc\\desktop\\finki\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\visual studio\\wherenite\\wherenite\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\controllers\\ticketcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\controllers\\ticketcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\models\\ticketcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\models\\ticketcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\cartitems\\additemtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\cartitems\\additemtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\cartitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\cartitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\ticketcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\ticketcategories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\events\\_eventstablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\events\\_eventstablepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\venues\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\venues\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\venuetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\venuetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\venues\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\venues\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\controllers\\venuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\venues\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\venues\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\views\\events\\addsong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\views\\events\\addsong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\controllers\\venuetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\controllers\\venuetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\wherenite\\models\\venuetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F9EAEF-D5CF-4154-B66E-0A252B1DD26B}|Wherenite\\Wherenite.csproj|solutionrelative:wherenite\\models\\venuetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T19:54:27.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T19:43:58.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\CartItemsController.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Controllers\\CartItemsController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\CartItemsController.cs",
+              "RelativeToolTip": "Wherenite\\Controllers\\CartItemsController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T19:26:14.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddItemToCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\CartItems\\AddItemToCart.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\CartItems\\AddItemToCart.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\CartItems\\AddItemToCart.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\CartItems\\AddItemToCart.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T19:21:48.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\TicketCategories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\TicketCategories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\TicketCategories\\Create.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\TicketCategories\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T18:53:19.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\TicketCategoriesController.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Controllers\\TicketCategoriesController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\TicketCategoriesController.cs",
+              "RelativeToolTip": "Wherenite\\Controllers\\TicketCategoriesController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDoAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T18:50:47.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TicketCategory.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\TicketCategory.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Models\\TicketCategory.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\TicketCategory.cs",
+              "RelativeToolTip": "Wherenite\\Models\\TicketCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T18:39:23.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Events\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Events\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T12:18:45.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Venues\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Venues\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Venues\\Edit.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Venues\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswD4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T12:09:50.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Venues\\Create.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Venues\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Venues\\Create.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Venues\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T12:09:03.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T20:58:05.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Venues\\Index.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Venues\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Venues\\Index.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Venues\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T20:22:46.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\VenueTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\VenueTypes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\VenueTypes\\Index.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\VenueTypes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T20:20:56.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddSong.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\AddSong.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Events\\AddSong.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\AddSong.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Events\\AddSong.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwDYAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T19:32:13.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Events\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\Edit.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Events\\Edit.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T19:21:54.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\Song.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Models\\Song.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\Song.cs",
+              "RelativeToolTip": "Wherenite\\Models\\Song.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:13:41.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Wherenite\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T11:10:06.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\Details.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Events\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\Details.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Events\\Details.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAUwDkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T11:56:17.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\CartItems\\Index.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\CartItems\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\CartItems\\Index.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\CartItems\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T13:25:01.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\Ticket.cs",
+              "RelativeToolTip": "Wherenite\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T19:12:32.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\CartItem.cs",
+              "RelativeToolTip": "Wherenite\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T11:40:29.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Site.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Content\\Site.css",
+              "RelativeDocumentMoniker": "Wherenite\\Content\\Site.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Content\\Site.css",
+              "RelativeToolTip": "Wherenite\\Content\\Site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-08T10:24:32.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_EventsTablePartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\_EventsTablePartial.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Events\\_EventsTablePartial.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\_EventsTablePartial.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Events\\_EventsTablePartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T09:50:11.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\Index.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Events\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Events\\Index.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Events\\Index.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-07T10:09:19.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Wherenite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Wherenite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAADwv0YAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-06T21:41:59.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Wherenite\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwC8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T21:34:30.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VenueTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\VenueTypesController.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Controllers\\VenueTypesController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\VenueTypesController.cs",
+              "RelativeToolTip": "Wherenite\\Controllers\\VenueTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T20:21:41.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VenuesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\VenuesController.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Controllers\\VenuesController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Controllers\\VenuesController.cs",
+              "RelativeToolTip": "Wherenite\\Controllers\\VenuesController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswFUAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T20:21:21.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\Event.cs",
+              "RelativeToolTip": "Wherenite\\Models\\Event.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAywBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T20:14:08.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Venue.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\Venue.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Models\\Venue.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\Venue.cs",
+              "RelativeToolTip": "Wherenite\\Models\\Venue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T12:08:53.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "VenueType.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\VenueType.cs",
+              "RelativeDocumentMoniker": "Wherenite\\Models\\VenueType.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\FINKI\\4 \u0441\u0435\u043C\u0435\u0441\u0442\u0430\u0440\\\u0418\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\Visual Studio\\Wherenite\\Wherenite\\Models\\VenueType.cs",
+              "RelativeToolTip": "Wherenite\\Models\\VenueType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T20:10:30.36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

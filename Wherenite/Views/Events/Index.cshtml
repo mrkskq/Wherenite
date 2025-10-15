@@ -1,0 +1,120 @@
+﻿@model IEnumerable<Wherenite.Models.Event>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="text-align:center; margin: 50px">Настани</h2>
+
+<h4 style="text-align:center; margin-bottom: 30px">Филтрирај ги настаните според тип на артист, или пребарај настан.</h4>
+
+<div class="button-filter">
+    @**Html.ActionLink("Сите", "Index", new { id = "Сите" }, new { @class = "btn btn-dark" })
+        @Html.ActionLink("DJ", "Index", new { id = "DJ" }, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Пејач", "Index", new { id = "Пејач" }, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Пејачка", "Index", new { id = "Пејачка" }, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Група", "Index", new { id = "Група" }, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Бенд", "Index", new { id = "Бенд" }, new { @class = "btn btn-primary" })*@
+
+    <button class="js-filter btn btn-dark data-category="Сите">Сите</button>
+    <button class="js-filter btn btn-secondary" data-category="DJ">DJ</button>
+    <button class="js-filter btn btn-secondary" data-category="Пејач">Пејач</button>
+    <button class="js-filter btn btn-secondary" data-category="Пејачка">Пејачка</button>
+    <button class="js-filter btn btn-secondary" data-category="Група">Група</button>
+    <button class="js-filter btn btn-secondary" data-category="Бенд">Бенд</button>
+
+</div>
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <p class="nothing" style="display: flex; justify-content: center; margin: 30px; margin-bottom: 10px">
+        @Html.ActionLink("Креирај нов настан", "Create", null, new { @class = "btn btn-outline-light" })
+    </p>
+    <p class="nothing" style="display: flex; justify-content: center">
+        @Html.ActionLink("Додади песна на артист", "AddSong", null, new { @class = "btn btn-outline-light btn-lg" })
+    </p>
+
+}
+
+
+<p style="display: flex; justify-content: center; margin-bottom: 50px; margin-top: 50px">
+    @Html.ActionLink(" < Назад", "Index", "Home", null, new { @class = "btn btn-dark btn-lg rozevo" })
+</p>
+
+
+<table class="table belo" id="eventsTable" style="margin-top: 50px">
+    <thead>
+        <tr>
+            <th class="head-cell">
+                @Html.DisplayNameFor(model => model.Venue.Name)
+            </th>
+            <th class="head-cell">
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th class="head-cell">
+                @Html.DisplayNameFor(model => model.EventImage)
+            </th>
+            <th class="head-cell">
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th class="head-cell">
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            @*<th class="head-cell">
+                @Html.DisplayNameFor(model => model.Price)
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody id="eventsWrapper">
+        @Html.Partial("_EventsTablePartial", Model)
+    </tbody>
+
+</table>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            var table = $('#eventsTable').DataTable({
+                language: {
+                    search: "Пребарај:",
+                    lengthMenu: "Прикажи _MENU_ настани"
+                }
+            });
+
+            $('#eventsTable .js-delete').on('click', function () {
+                var button = $(this);
+                bootbox.confirm("Дали сакате да го избришете настанот?",
+                    function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: "/Events/Delete/" + button.attr("data-event-id"),
+                                method: "GET",
+                                success: function () {
+                                    table.row(button.parents("tr")).remove().draw();
+                                },
+                                error: function (err) { console.log(err); }
+                            });
+                        }
+                    });
+            });
+
+            $('.js-filter').on('click', function () {
+                var category = $(this).data('category');
+
+                $.ajax({
+                    url: "/Events/FilterByCategory/",
+                    method: "GET",
+                    data: { category: category },
+                    success: function (result) {
+                        table.clear().destroy();
+                        $('#eventsWrapper').html(result);
+                        table = $('#eventsTable').DataTable();
+                    },
+                    error: function (err) { console.log(err); }
+                });
+            });
+        });
+    </script>
+}

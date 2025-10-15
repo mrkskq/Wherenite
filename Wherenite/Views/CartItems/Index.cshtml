@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Wherenite.Models.CartItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="text-align: center; margin: 50px">Кошничка</h2>
+
+@if (!Model.Any())
+{
+    <p>Kошничката е празна.</p>
+}
+
+<ul style="display: flex; align-items: center" id="cartList">
+    @foreach (var item in Model.OrderByDescending(e => e.Event.Date))
+    {
+        <li class="event-card">
+            <div>
+                <img src="@item.Event.EventImage" width="200" height="200" alt="Слика" style="object-fit: cover" />
+                <p class="event-card-data" style="margin-top: 20px; font-size: x-large"><strong>@item.Event.Title</strong></p>
+                <p class="event-card-data"><strong>@item.Event.Venue.Name</strong></p>
+                <p class="event-card-data">@item.Event.Date.ToShortDateString()</p>
+                <p class="event-card-data">Категорија: <strong>@item.TicketCategoryId</strong></p>
+                <p class="event-card-data">Цена: <strong>@item.TicketCategoryPrice ден.</strong></p>
+                <p class="event-card-data">Број на карти: @item.Quantity</p>
+                <p class="event-card-data">Вкупно: <span style="font-weight: bold; color: darkgreen">@(@item.TicketCategoryPrice * item.Quantity) ден.</span></p>
+
+               @using (Html.BeginForm("CreateCheckoutSession", "CartItems", FormMethod.Post))
+                {
+                    @Html.Hidden("cartItemId", item.Id)
+
+                    <div class="event-card-data">
+                        <button type="submit" class="btn btn-outline-success">Купи</button>
+                    </div>
+                }
+                <div class="event-card-data" style="margin: 10px">
+                    <button class="btn btn-outline-danger js-delete" data-item-id="@item.Id">Избриши</button>
+                </div>
+            </div>
+        </li>
+    }
+</ul>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $('#cartList .js-delete').on('click', function () {
+                var button = $(this);
+                bootbox.confirm("Дали сакате да го отстраните овој настан од кошничката?",
+                    function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: "/CartItems/Delete/" + button.attr("data-item-id"),
+                                method: "GET",
+                                success: function () {
+                                    button.closest("li").remove();
+                                },
+                                error: function (err) { console.log(err); }
+                            });
+                        }
+                    });
+            });
+        });
+    </script>
+}

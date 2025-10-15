@@ -1,0 +1,87 @@
+﻿@model Wherenite.Models.Event
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Креирај нов настан</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.About, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.About, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.About, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EventImage, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EventImage, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.EventImage, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.Description, new SelectList(new List<string> { "DJ", "Пејач", "Пејачка", "Група", "Бенд" }), "---", new { @class = "form-control btn btn-outline-light dropdown-toggle" })
+            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    @*<div class="form-group">
+        @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control transparentBelo" } })
+            @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+        </div>
+    </div>*@
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.VenueId, "VenueId", htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("VenueId", null, htmlAttributes: new { @class = "form-control btn btn-outline-light dropdown-toggle" })
+            @Html.ValidationMessageFor(model => model.VenueId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group" style="margin-top: 10px">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Креирај" class="btn btn-light" />
+        </div>
+    </div>
+</div>
+}
+
+<p style="display: flex; justify-content: center; margin-bottom: 50px; margin-top: 50px">
+    @Html.ActionLink(" < Назад", "Index", "Events", null, new { @class = "btn btn-dark btn-lg" })
+</p>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

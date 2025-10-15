@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Wherenite.Models.Event>
+
+@foreach (var item in Model.OrderByDescending(e => e.Date))
+{
+    <tr>
+        <td class="cell">@item.Venue.Name</td>
+        <td class="cell">@item.Title</td>
+        <td class="cell"><img src="@item.EventImage" width="300" height="300" style="border-radius: 50%; object-fit: cover; box-shadow: 5px 5px 5px"/></td>
+        <td class="cell">@item.Date.ToShortDateString()</td>
+        <td class="cell">@item.Description</td>
+        @*<td class="cell">@item.Price</td>*@
+        <td class="cell">
+
+
+            <p>
+                @Html.ActionLink("Повеќе", "Details", new { id = item.Id }, new { @class = "btn btn-secondary btn-lg rozevo" })
+            </p>
+
+
+            @if (item.Price != 0)
+            {
+                if (item.Date < DateTime.Now && (User.Identity.IsAuthenticated && User.IsInRole("Admin")))
+                {
+                    <p class="event-card-data">
+                        @Html.ActionLink("Додај во кошничка", "AddItemToCart", "CartItems",
+                            new { eventId = item.Id, quantity = 1 },
+                            new { @class = "btn btn-warning" })
+                    </p>
+                }
+                else if (item.Date < DateTime.Now)
+                {
+                    <p class="event-card-data">
+                        @Html.ActionLink("Додај во кошничка", "AddItemToCart", "CartItems",
+                            new { eventId = item.Id, quantity = 1 },
+                            new { @class = "btn btn-warning disabled" })
+                    </p>
+                }
+                else
+                {
+                    <p class="event-card-data">
+                        @Html.ActionLink("Додај во кошничка", "AddItemToCart", "CartItems",
+                            new { eventId = item.Id, quantity = 1 },
+                            new { @class = "btn btn-warning" })
+                    </p>
+                }
+            }
+
+            else
+            {
+                <p>
+
+                    @if (!string.IsNullOrEmpty(item.Venue.PhoneNumber1))
+                    {
+                        <div style="text-align: center; font-size: small">📞 @item.Venue.PhoneNumber1</div>
+                    }
+                    @if (!string.IsNullOrEmpty(item.Venue.PhoneNumber2))
+                    {
+                        <div style="text-align: center; font-size: small">📞 @item.Venue.PhoneNumber2</div>
+                    }
+                    @if (!string.IsNullOrEmpty(item.Venue.PhoneNumber3))
+                    {
+                        <div style="text-align: center; font-size: small">📞 @item.Venue.PhoneNumber3</div>
+                    }
+                </p>
+            }
+
+
+            @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+            {
+                <p>
+                    @Html.ActionLink("Промени", "Edit", new { id = item.Id }, new { @class = "btn btn-outline-secondary" })
+                </p>
+                <p>
+                    <button class="js-delete btn btn-outline-danger" data-event-id="@item.Id">Избриши</button>
+                </p>
+                @*if ((!string.IsNullOrEmpty(ViewBag.Category) && !string.Equals(ViewBag.Category, "DJ")) || !string.Equals(item.Description, "DJ"))
+            {
+                <p>
+                    @Html.ActionLink("Додади песна на артистот", "AddSong", new { id = item.Id }, new { @class = "btn btn-outline-secondary" })
+                </p>
+            }*@
+
+            }
+        </td>
+    </tr>
+}
+
+    
+

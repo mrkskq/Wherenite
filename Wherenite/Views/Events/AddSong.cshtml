@@ -1,0 +1,63 @@
+﻿@model Wherenite.Models.Song
+
+@{
+    ViewBag.Title = "AddSong";
+}
+
+@*<h2>Додади песна од: @ViewBag.EventTitle</h2>*@
+
+@using (Html.BeginForm())
+{
+
+    @*@Html.Hidden("EventId", (int)ViewBag.EventId)*@
+
+    @Html.AntiForgeryToken()
+
+    <div style="display: flex; align-items: center">
+        <h2>Одбери артист кај кој сакаш да додадеш песна:</h2>
+
+        <div class="form-group" style="margin-left: 50px">
+            <div class="col-md-10" style="width: max-content">
+                @Html.DropDownList("SelectedEventId", ViewBag.Events as SelectList, "--- Одбери артист ---", htmlAttributes: new { @class = "form-control btn btn-secondary dropdown-toggle", id = "EventIdDropdown" })
+                @Html.ValidationMessage("SelectedEventId", "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <p style="font-size: larger">
+        1. Оди на YouTube <br />
+        2. Најди ја песната што сакаш да ја додадеш <br />
+        3. Кликни на Share <br />
+        4. Кликни на <strong>Embed</strong> <br />
+        5. Ископирај го само делот кај <strong>src</strong> и стави го во полето долу <br />
+    </p>
+
+    <div class="form-horizontal" style="margin: 20px">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.SongURL, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SongURL, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SongURL, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" ; style="margin: 20px; display: inline">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Додади песна" class="btn btn-light" />
+            </div>
+        </div>
+    </div>
+}
+
+<div style="display: flex; justify-content: center">
+    @Html.ActionLink(" < Назад", "Index", "Events", null, new { @class = "btn btn-dark btn-lg rozevo" })
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+
+}
+
