@@ -1,4 +1,4 @@
-# Wherenite – Event Discovery and Ticketing Platform
+# Wherenite – Event Discovery and Ticketing Web App
 
 ## Project Overview
 Wherenite (Where tonight) is a web-based application developed in C# ASP.NET Framework using the MVC architecture and Entity Framework for database management. This project is designed to help users discover and follow current music events in Ohrid. It allows users to browse events, filter them by location, venue type, or artist type, and view detailed information such as date, ticket prices, and sample songs from performers. Users can purchase tickets directly through the shopping cart for events that support online sales or make reservations via contact numbers for others. By implementing role-based access, the application ensures smooth and organized event browsing, ticket purchasing, and efficient event management.
